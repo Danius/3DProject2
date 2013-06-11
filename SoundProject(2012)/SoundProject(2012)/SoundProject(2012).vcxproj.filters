@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="World.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="SoundSystem.cpp" />
+    <ClCompile Include="ObjHandler.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="DSPfilters.h" />
+    <ClCompile Include="Sound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="FreeImage\FreeImage.h" />
+    <ClInclude Include="hrTimer.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="SoundSystem.hpp" />
+    <ClInclude Include="ObjHandler.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="ButtonInput.cpp" />
+    <ClInclude Include="ButtonInput.h" />
+    <ClInclude Include="Sound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\StarcraftBackgroundTerran.mp3" />
+    <Media Include="Sounds\ZerglingSoundTroll.mp3" />
+    <Media Include="Sounds\NomNomNom.mp3" />
+    <Media Include="Sounds\StereoHearts.mp3" />
+    <Media Include="Sounds\raven_poe.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Pics\heightmap.bmp" />
+    <Image Include="Pics\heightmap2.bmp" />
+    <Image Include="Pics\heightmap3.bmp" />
+    <Image Include="Pics\Terrain_heightmap.bmp" />
+    <Image Include="Pics\Terrain_texture.jpg" />
+    <Image Include="Pics\bunker_diffuse.dds" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FreeImage\FreeImage.dll" />
+  </ItemGroup>
+</Project>
